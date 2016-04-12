@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid - Dark Admin</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>        
+</head>
+<body>
+
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.xhtml">Back to Admin</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                     <li><a href="portfolio.xhtml"><i class="fa fa-tasks"></i>Portafolio</a></li>
+                    <li><a href="Somos.xhtml"><i class="fa fa-globe"></i> Quienes somos</a></li>
+                    <li><a href="register.xhtml"><i class="fa fa-font"></i> Registro</a></li>
+                    <li><a href="timeline.xhtml"><i class="fa fa-font"></i> Timeline</a></li>
+                    <li><a href="forms.xhtml"><i class="fa fa-list-ol"></i> Forms</a></li>
+                    <li><a href="typography.xhtml"><i class="fa fa-font"></i> Typography</a></li>
+                    <li><a href="bootstrap-elements.xhtml"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>
+                    <li><a href="bootstrap-grid.xhtml"><i class="fa fa-table"></i> Bootstrap Grid</a></li>          
+                </ul>
+                
+                   
+            </div>
+        </nav>
+
+      <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <img src="img/logo2.png" width="5%" height="5%">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+            <a class="navbar-brand" href="index.jsp">Inicio</a>
+        </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="Quienes Somos.jsp">Quienes Somos</a></li>
+                <ul class="dropdown-menu">
+                  <li><a href="#section41">Mision</a></li>
+                  <li><a href="#section42">Vision</a></li>
+                  <li><a href="#section43">Valores</a></li>
+                  <li><a href="#section44">Justificacion del proyecto</a></li>
+                  <li><a href="#section45">Objetivos</a></li>
+                </ul>
+            <li><a href="Contacto.jsp">Contactenos</a></li>
+          <li><a href="#section2"></a></li>
+
+          
+        </ul>
+      </div>
+    </div>
+
+</nav>    
+
+
+<div id="section41" class="container-fluid"><br><br><br>
+  <div class="row" style>
+      <div class="col-md-3">
+          <br><br><img src="img/contactenos.png">
+      </div>
+
+    <div class="col-md-6">
+        
+         
+      <br><h3><center>Contactenos</center></h3><br>
+      
+         
+       
+      
+        <form action="gestorContacto" method="post" >
+            <div class="form-group">
+                
+            <div class="form-group">
+                <label For="inNomCont">Nombre:</label>
+                <input type="text" class="form-control" id="inNomCont" name="inNomCont" required>
+            </div>
+
+            <div class="form-group">
+                <label For="inApeCont">Apellidos:</label>
+                <input type="text" class="form-control" id="inApeCont" name="inApeCont" required>
+            </div>
+                
+            <div class="form-group">
+                <label For="EmailCont">Correo Electronico:</label>
+                <input type="EmailCont" class="form-control" id="correoEleCont" name="correoEleCont"  placeholder="correo@ejemplo.com" required>
+            </div>
+                
+            <div class="form-group">
+                <label For="asunto">Asunto</label>
+                <input type="text" class="form-control" id="asunto" name="asunto" required>
+            </div>
+                
+            <div class="form-group">
+                <label For="mensa">Mensaje:</label>
+                <textarea rows="3" type="text" class="form-control" id="mensa" name="mensa" required></textarea>
+               
+            </div><br>
+           
+            <button type="submit" class="btn btn-success">Enviar</button>
+            <a href="index.jsp"><button type="button" class="btn btn-success">Cancelar</button></a>
+            
+
+        </div>
+        </form>
+    </div>
+
+    <div class="col-md-3"></div>
+  </div>
+  
+</div>
+    
+<div id="section6" class="container-fluid">
+    <div class="row" style>
+        <div class="col-md-12" >
+        <p class="text-right">
+            <FONT SIZE=3 COLOR=Pink>  Contactenos: <br> Tel: 7384013 - 3102409344 <br> Direccion: Cr 12 # 90-74 <br> valleycargo@gmail.com </p> </FONT>
+        </div>
+    </div>
+  </div>
+    </div>
+
+</body>
+</html>
